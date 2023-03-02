@@ -2,8 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        string myName;
-        myName = "Mike";
+        string myName = "Mike";
 
         Console.WriteLine(myName);
 
