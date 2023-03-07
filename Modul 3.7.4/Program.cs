@@ -33,7 +33,7 @@
 
         var birthday = Console.ReadLine();
 
-        Console.WriteLine($"\nSo, your name is {name}, you were born on {birthday}, you are {age} years old and your favorite day is {day}!");
+        Console.WriteLine($"\nSo, your name is {name}, you were born on {birthday}, you are {age} years old and your favorite day is {day}");
 
 
 
