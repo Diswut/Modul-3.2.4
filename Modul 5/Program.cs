@@ -146,93 +146,26 @@ class MainClass
         if (modif.Length > 2)
         {
             modif = modif.Remove(0, 2);
-            Console.WriteLine("..." + modif);
+            
         }
+
+        Console.BackgroundColor= (ConsoleColor)deep;
+        Console.WriteLine("..." + modif);
+
         if (deep > 1)
         {
             Echo(modif, deep - 1);
         }
     }
 
-    
-    
+    static void Main(string[] args)
+    {
+        
+
+        
 
 
-
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Напишите что-то");
-            var str = Console.ReadLine();
-
-            Console.WriteLine("Укажите глубину эха");
-            var deep = int.Parse(Console.ReadLine());
-
-            Echo(str, deep);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            //var (name, age) = ("Евгения", 27);
-
-            //Console.WriteLine("Мое имя: {0}", name);
-            //Console.WriteLine("Мой возраст: {0}", age);
-
-            //Console.Write("Введите имя: ");
-            //name = Console.ReadLine();
-            //Console.Write("Введите возрас с цифрами:");
-            //age = Convert.ToInt32(Console.ReadLine());
-
-            //Console.WriteLine("Ваше имя: {0}", name);
-            //Console.WriteLine("Ваш возраст: {0}", age);
-
-            //var favcolors = new string[3];
-
-            //for (int i = 0; i < favcolors.Length; i++)
-            //{
-            //    favcolors[i] = ShowColor(name, age);
-            //}
-
-            //GetName(ref name);
-
-
-
-
-
-
-            //(string name, string[] Dishes) User;
-
-            //Console.WriteLine("Напишите свое имя");
-
-            //User.name = Console.ReadLine();
-
-            //User.Dishes = new string[5];
-
-            //for (int i = 0; i < User.Dishes.Length; i++)
-            //{
-            //    Console.WriteLine($"Напишите свое блюдо {i + 1}");
-            //    User.Dishes[i] = Console.ReadLine();
-        }
+    }
 
     
 }
