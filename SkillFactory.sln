@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Enum", "Enum\Enum.csproj", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul 3.7.4", "Modul 3.7.4\Modul 3.7.4.csproj", "{CCC0D878-256F-431E-8003-F86B36012C5F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul 4", "Modul 4\Modul 4.csproj", "{F4067999-4155-48BF-ABD1-B7EBE3B517DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modul 4", "Modul 4\Modul 4.csproj", "{F4067999-4155-48BF-ABD1-B7EBE3B517DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modul 5", "Modul 5\Modul 5.csproj", "{0AF14AB9-A4C8-46E2-A3EF-4C1B7B194370}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F4067999-4155-48BF-ABD1-B7EBE3B517DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4067999-4155-48BF-ABD1-B7EBE3B517DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4067999-4155-48BF-ABD1-B7EBE3B517DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AF14AB9-A4C8-46E2-A3EF-4C1B7B194370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AF14AB9-A4C8-46E2-A3EF-4C1B7B194370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AF14AB9-A4C8-46E2-A3EF-4C1B7B194370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AF14AB9-A4C8-46E2-A3EF-4C1B7B194370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
