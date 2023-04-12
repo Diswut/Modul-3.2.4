@@ -57,7 +57,7 @@
         }
         else
         {
-            Console.WriteLine("Не коректные данные, попробуйте еще раз");
+            Console.WriteLine("Не коректные данные, нужно вводить цифрами");
             return true;
         }
 
